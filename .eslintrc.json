@@ -1,0 +1,17 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jquery": true
+    },
+    "globals": {
+        "AOS": "readonly"
+    },
+    "extends": "standard",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+    }
+}
