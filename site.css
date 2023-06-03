@@ -35,6 +35,19 @@ h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.section {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+}
+
+p {
+margin-bottom: 20px;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -587,6 +600,10 @@ h2 {
 @media (max-width: 991px) {
   .section {
     height: auto;
+    padding-bottom: 20px;
+  }
+
+  .cta {
     margin-bottom: 20px;
   }
 
@@ -682,18 +699,4 @@ h2 {
 
 .navbar-mobile .dropdown>.dropdown-active {
   display: block;
-}
-  
-  
-.section {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 0 20px;
-}
-
-p {
-  margin-bottom: 20px;
 }
