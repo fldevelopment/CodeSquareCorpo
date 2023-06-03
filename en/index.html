@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code&sup2;</title>
+    <style>
+        body {
+            background-color: #212121;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        h1 {
+            color: #fff;
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        a {
+            color: #fff;
+        }
+
+        .section {
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+
+        .section h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+
+        .section p {
+            font-size: 18px;
+            line-height: 1.5;
+        }
+
+        .contact p {
+            font-size: 18px;
+        }
+
+        .top-menu {
+            position: sticky;
+            top: 0;
+            background-color: #212121;
+            padding: 10px;
+            text-align: right;
+            font-size: 14px;
+            z-index: 1;
+        }
+
+        .top-menu ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .top-menu li {
+            margin: 0 10px;
+        }
+
+        .top-menu a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        .logo {
+            display: block;
+            margin: 0 auto;
+            max-width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="top-menu">
+        <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#web">Custom Web Development</a></li>
+            <li><a href="#consulting">Consulting Services</a></li>
+            <li><a href="#architecture">Architecture and System Design</a></li>
+            <li><a href="#why-choose-us">Why Choose Us</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <img src="logo.png" alt="Logo" class="logo">
+
+    <div class="section" id="about">
+        <h2>About Us</h2>
+        <p>Our team of talented web developers specializes in creating tailor-made, responsive websites that capture your brand's essence and engage your target audience. We leverage the latest technologies and frameworks to develop scalable and secure web applications that deliver exceptional performance across different platforms and devices.</p>
+    </div>
+
+    <div class="section" id="web">
+        <h2>Custom Web Development</h2>
+        <p>At Code&sup2;, we specialize in developing custom websites that are tailored to your unique requirements. From responsive design to seamless user experience, we create websites that engage your audience and drive conversions. Our team excels in using technologies such as Microsoft Dotnet to deliver exceptional results.</p>
+    </div>
+
+    <div class="section" id="consulting">
+        <h2>Consulting Services</h2>
+        <p>Unlock the full potential of your business with our expert consulting services. Our experienced consultants provide strategic guidance and innovative solutions to help you optimize your technology stack, streamline processes, and enhance your digital presence. We offer comprehensive assessments, roadmap development, and implementation support to drive efficiency and growth.</p>
+    </div>
+
+    <div class="section" id="architecture">
+        <h2>Architecture and System Design</h2>
+        <p>Building a solid foundation is crucial for the success of any software project. Our skilled architects are adept at designing robust, scalable, and secure software architectures tailored to your specific requirements. We analyze your business needs, align technology choices, and create detailed architectural plans that serve as a blueprint for seamless development and future expansion.</p>
+    </div>
+
+    <div class="section" id="why-choose-us">
+        <h2>Why Choose Us</h2>
+        <p>Our team stands out for several reasons:</p>
+        <ul>
+            <li>Technical Excellence: Our developers, consultants, and architects are highly skilled and continuously updated with the latest technologies and industry best practices. We pride ourselves on delivering solutions that are both technically robust and future-proof.</li>
+            <li>Collaboration: We believe in close collaboration with our clients throughout the development and consulting process. We listen to your ideas, understand your goals, and provide regular updates to ensure that we are aligned with your vision.</li>
+            <li>Timely Delivery: We understand the importance of time in the business world. Our team follows agile development methodologies to deliver projects on time, without compromising on quality.</li>
+            <li>Customer Satisfaction: Customer satisfaction is our top priority. We strive to exceed expectations and build long-term relationships with our clients. We provide exceptional support and maintenance services even after the project is delivered.</li>
+        </ul>
+    </div>
+
+    <div class="section" id="contact">
+        <h2>Contact Us</h2>
+        <p>Ready to discuss your project and transform your ideas into reality? Get in touch with our expert team today for a free consultation and quote.</p>
+        <p>Email: <a href="mailto:info@codesquare.ca">info@codesquare.ca</a></p>
+        <p>Phone: [Your Phone Number]</p>
+    </div>
+
+    <script>
+        // Smooth scrolling to anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
