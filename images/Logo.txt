@@ -1,0 +1,3 @@
+Fonts
+Code = Century Gothic
+Expostant = Segoe UI Variable Display
